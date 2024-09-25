@@ -1,0 +1,3 @@
+roslaunch ros-kafka-connector ros_publish.launch
+RLException: [ros_publish.launch] is neither a launch file in package [ros-kafka-connector] nor is [ros-kafka-connector] a launch file name
+The traceback for the exception was written to the log file

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>
+    <!-- Kafka 설정 -->
+    <arg name="bootstrap_server" default="localhost:9092"/>
+    <arg name="kafka_topic" default="merged_topic"/>
+    <arg name="ros_topic" default="/processed/merged"/>
+
+    <!-- kafka_publish 노드를 실행 -->
+    <node pkg="ros_kafka_connector" type="kafka_publish.py" name="kafka_publish" output="screen">
+        <param name="~bootstrap_server" value="$(arg bootstrap_server)"/>
+        <param name="~kafka_topic" value="$(arg kafka_topic)"/>
+        <param name="~ros_topic" value="$(arg ros_topic)"/>
+    </node>
+</launch>
+
