@@ -1,0 +1,8 @@
+prefix=/home/minseokim521/cloud_innovators/devel
+
+Name: ec2
+Description: Description of ec2
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

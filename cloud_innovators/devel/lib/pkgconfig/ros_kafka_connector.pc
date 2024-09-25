@@ -1,0 +1,8 @@
+prefix=/home/minseokim521/cloud_innovators/devel
+
+Name: ros_kafka_connector
+Description: Description of ros_kafka_connector
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
