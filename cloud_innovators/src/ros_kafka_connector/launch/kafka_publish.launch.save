@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <arg name="bootstrap_server" default="localhost:9092"/>
+    <arg name="kafka_topic" default="merged_topic"/>
+  

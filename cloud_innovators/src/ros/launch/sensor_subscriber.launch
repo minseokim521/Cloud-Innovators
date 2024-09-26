@@ -1,0 +1,11 @@
+<launch>
+    <!-- IMU Subscriber Node -->
+    <node name="imu_subscriber" pkg="ros" type="imu_subscriber.py" output="screen" />
+
+    <!-- LiDAR Subscriber Node -->
+    <node name="lidar_subscriber" pkg="ros" type="lidar_subscriber.py" output="screen" />
+
+    <!-- GPS Subscriber Node -->
+    <node name="gps_subscriber" pkg="ros" type="gps_subscriber.py" output="screen" />
+</launch>
+
