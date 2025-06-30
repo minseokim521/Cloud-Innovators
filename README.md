@@ -21,6 +21,22 @@ AWS EC2 서버 내에서 **Docker 기반 분산 데이터베이스** 아키텍�
 ## 🗓️ 개발 기간
 + 2024.09 ~ 2024.12
 
+## 📊 전체 SW 아키텍처
+
+![전체 SW 아키텍처](images/architecture.png)
+
+---
+
+## 🗂️ DB 테이블 구현
+
+![DB 테이블 구현](images/db_tables.png)
+
+---
+
+## 🗄️ 분산 DB 구축
+
+![분산 DB 구축](images/distributed_db.png)
+
 ## 🗂️ 데이터 파이프라인 구성
 
 ```plaintext
